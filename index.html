@@ -1,213 +1,885 @@
 <!DOCTYPE html>
-<!-- Copyright TheShark34 2015 -->
-<!-- Codé par moi même :) Avec Bootstrap http://getbootstrap.com/-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="css/carousel.css" rel="stylesheet">
-    <link rel="icon" href="img/logomini.png">
-    <title>TheShark34 - Acceuil</title>
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>TheShark34 | Acceuil</title>
+		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
+		<meta name="author" content="htmlcoder.me">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <img class="navbar-img" src="img/logomini.png" />
-        <a class="navbar-brand" href="index.html">TheShark34</a>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          
-          <li><a href="Thunder-Music/">Thunder Music</a></li>
-          <li><a href="Versus/">Versus</a></li>
-          <li><a href="Sender/">Sender</a></li>
-          <li><a href="SharkBundler/">SharkBundler</a></li>
-          <li><a href="S-Update/">S-Update</a></li>
-          <li><a href="Shark-Engine/">Shark-Engine</a></li>
-          <li><a href="Tutoriels/">Tutoriels</a></li>
-          <li><a href="me.html">Moi</a></li>
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
 
-        </ul>
-      </div>
-    </div>
-  </nav>
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
 
-  <div id="carousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel" data-slide-to="1"></li>
-      <li data-target="#carousel" data-slide-to="2"></li>
-      <li data-target="#carousel" data-slide-to="3"></li>
-      <li data-target="#carousel" data-slide-to="4"></li>
-      <li data-target="#carousel" data-slide-to="5"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <!-- <img src="img/thundermusicbg.png"> -->
-        <div class="container">
-          <div class="carousel-caption">
-            <img src="img/thundermusicicon.png">
-            <h1>ThunderMusic</h1>
-            <p>Le lecteur MP3 léger, avec systeme de synchronisation a Dropbox, téléchargeur youtube, playlist, et plus !</p>
-            <p><a class="btn btn-lg btn-primary" href="Thunder-Music/" role="button">Telecharger</a>
-            <a class="btn btn-lg btn-primary" href="https://github.com/TheShark34/ThunderMusic/" role="button">Github</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-       <!-- <img src="img/versusbg.png"> -->
-        <div class="container">
-          <div class="carousel-caption">
-            <img src="img/versusicon.png">
-            <h1>Versus</h1>
-            <p>Des mini jeux 1 contre 1 jouable sur le meme ordinateur, en local, ou même en ligne. De plus en plus de minis-jeux au fur et a mesure :).</p>
-            <p><a class="btn btn-lg btn-primary" href="Versus/" role="button">Telecharger</a>
-            <a class="btn btn-lg btn-primary" href="https://github.com/TheShark34/Versus/" role="button">Github</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <!-- <img src="img/senderbg.png"> -->
-        <div class="container">
-          <div class="carousel-caption">
-            <img src="img/sendericon.png">
-            <h1>Sender</h1>
-            <p>Tous simple ^^. Envoyez des fichiers a un autre ordinateur par reseau local plus simplement et plus rapidement qu'avec une clé USB.</p>
-            <p><a class="btn btn-lg btn-primary" href="Sender/" role="button">Telecharger</a>
-            <a class="btn btn-lg btn-primary" href="https://github.com/TheShark34/Sender/" role="button">Github</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-       <!-- <img src="img/sharkbundlerbg.png"> -->
-        <div class="container">
-          <div class="carousel-caption">
-            <img src="img/sharkbundlericon.png">
-            <h1>SharkBundler</h1>
-            <p>Simple, leger, et rapide, transformez vos .jar en .app pour mac !</p>
-            <p><a class="btn btn-lg btn-primary" href="SharkBundler/" role="button">Telecharger</a>
-            <a class="btn btn-lg btn-primary" href="https://github.com/TheShark34/SharkBundler/" role="button">Github</a></p>
-          </div>
-        </div>
-      </div>
-       <div class="item">
-       <!-- <img src="img/sharkenginebg.png"> -->
-        <div class="container">
-          <div class="carousel-caption">
-            <img src="img/sharkengineicon.png">
-            <h1>Shark-Engine</h1>
-            <p>Le moteur de jeu Java utilisant LWJGL et Slick2D pour créer vos jeux en Java. Léger et simple.</p>
-            <p><a class="btn btn-lg btn-primary" href="SharkBundler/" role="button">Telecharger</a>
-            <a class="btn btn-lg btn-primary" href="https://github.com/TheShark34/Shark-Engine/" role="button">Github</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="container">
-          <div class="carousel-caption">
-            <img src="img/supdate.png">
-            <h1>S-Update</h1>
-            <p>La librairie de mise à jour Java. Simple d'utilisation, complete. 1 seconde pour verifier les mises à jour. Sous license Apache 2</p>
-            <p><a class="btn btn-lg btn-primary" href="S-Update/" role="button">Telecharger</a>
-            <a class="btn btn-lg btn-primary" href="https://github.com/TheShark34/S-Update/" role="button">Github</a></p>
-          </div>
-        </div>
-      </div>      
-    </div>
-    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+		<!-- Bootstrap core CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-  <div class="container marketing">
-    <div class="row">
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/github.png" style="width: 140px; height: 140px;">
-        <h2>Open-Source</h2>
-        <p>Tous mes programmes sont open-source, sous license Apache 2. Leurs sources sont disponibles sur GitHub.</p>
-        <p><a class="btn btn-default" href="https://github.com/TheShark34" role="button">Mon GitHub &raquo;</a></p>
-      </div>
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/ampoule.png" style="width: 140px; height: 140px;">
-        <h2>Simplicité</h2>
-        <p>La simplicité et l'ergonomie avant tous, je fais en sorte de rendre mes programmes les plus simples d'utilisation possible pour qu'ils soient utilisés facilement par tous.</p>
-      </div>
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/universel.png" style="width: 140px; height: 140px;">
-        <h2>Universel</h2>
-        <p>Mes programmes sont toujours universels, je maximise la compatibilité Windows/OS X/Linux, mais normalement ils marchent pour tous systeme ayant Java installé :)</p>
-      </div>
-    </div>
+		<!-- Font Awesome CSS -->
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
-    <hr class="featurette-divider">
+		<!-- Plugins -->
+		<link href="css/animations.css" rel="stylesheet">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Moi. <span class="text-muted">TheShark34</span></h2>
-        <p class="lead">Je m'appelle Adrien, je developpe de puis 5 ans, surtout en Java, mais aussi en PHP, HTML, Lua, et plus :)</br>L'informatique et la programmation c'est ma passion, je passe la plupart de mon temps a programmer, mais aussi a jouer ^^.</p>
-        <p><a class="btn btn-default" href="me.html" role="button">Plus d'info &raquo;</a></p>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="img/logoshark.png">
-      </div>
-    </div>
+		<!-- Worthy core CSS file -->
+		<link href="css/style.css" rel="stylesheet">
 
-    <hr class="featurette-divider">
+		<!-- Custom css -->
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
 
-    <div class="row featurette">
-      <div class="col-md-5">
-        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="img/tutoriel.png">
-      </div>
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Tutoriels. <span class="text-muted">Java/Minecraft/plus...</span></h2>
-        <p class="lead">Vous pouvez vous rendre dans la section tutoriels où vous y trouverez par exemple les mods d'emplois de mes programmes, ou encors des tutoriels de programmation, pour faire un launcher Minecraft par exemple.</p>
-        <p><a class="btn btn-default" href="Tutoriels/" role="button">Tutoriels &raquo;</a></p>
-      </div>
-    </div>
+	<body class="no-trans">
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
 
-    <hr class="featurette-divider">
+		<!-- header start -->
+		<!-- ================ -->
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Me Contacter. <span class="text-muted">Reporter un bug/Votre avis/un service</span></h2>
-        <p class="lead">Pour me demander un service (sachant que je fais la plupart des choses gratuitement) comme un launcher minecraft, me donner votre avis sur mon site, me reporter un bug, ou autre, contactez moi via mon adresse email</p>
-        <p><a class="btn btn-default" href="mailto:adrien1975@live.fr" role="button">Me Contacter &raquo;</a></p>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="img/contact.png">
-      </div>
-    </div>
+						<!-- header-left start -->
+						<!-- ================ -->
+						<div class="header-left clearfix">
 
-    <hr class="featurette-divider">
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<a href="#banner"><img id="logo" src="images/logo.png" alt="Worthy"></a>
+							</div>
 
-    <footer>
-      <p class="pull-right"><a href="#">Remonter</a></p>
-      <p>&copy; 2015 TheShark34</p>
-    </footer>
+							<!-- name-and-slogan -->
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name"><a href="#banner">TheShark34</a></div>
+								<div class="site-slogan">Développeur Java depuis 4 ans</div>
+							</div>
 
-  </div>
+						</div>
+						<!-- header-left end -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+					</div>
+					<div class="col-md-8">
 
-</body>
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right clearfix">
 
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Activer la navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li class="active"><a href="#banner">Acceuil</a></li>
+												<li><a href="#about">A propos</a></li>
+												<li><a href="#services">Services</a></li>
+												<li><a href="#portfolio">Portfolio</a></li>
+												<li><a href="#clients">Clients</a></li>
+												<li><a href="#contact">Contact</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- banner start -->
+		<!-- ================ -->
+		<div id="banner" class="banner">
+			<div class="banner-image"></div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+							<h1 class="text-center"><span>TheShark34</span>, Développeur Java</h1>
+							<p class="lead text-center">Je m'appelle Adrien, je suis développeur Java depuis maintenant 4 ans. Je fais toutes sortes de programmes mais principalement des Jeux. Je fais aussi des launchers. Tous mes programmes/librairies sont sur mon Github.</p>
+							<a target="_blank" href="https://github.com/TheShark34/"><button class="btn btn-primary center-block">Github</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 id="about" class="title text-center">A propos de <span>Moi</span></h1>
+						<p class="lead text-center">Pour en apprendre plus sur moi voici quelques infos sur moi, ma vie, tout ça, qui je suis vraiment.</p>
+						<div class="space"></div>
+						<div class="row">
+							<div class="col-md-6">
+								<img src="images/section-image-1.png" alt="Mon avatar =)">
+								<div class="space"></div>
+							</div>
+							<div class="col-md-6">
+								<p>Moi c'est Adrien, mais on m'appelle Shark. J'habite actuellement dans une petite ville à coté de Montpellier. Je suis passioné d'informatique et surtout de programmation. J'ai maintenant 14 ans et cela fait 4 ans que je programme en différents languages, même si mon préféré reste le Java.</p>
+								<p>Je passe la plupart de mon temps à programmer, je créé tous types de programmes par-ci par-là. J'ai beaucoup de projets en ce moment je suis pas mal occupé. Voici mes capacités en programmation :</p>
+								<ul class="list-unstyled">
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Java : 90%</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Android : 35%</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Html / Css : 45 %</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> PHP : 35 %</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> JavaScript : 25% (Apprentissage Intensif)</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Unreal Engine : 15% (Apprentissage Intensif)</li>
+								</ul>
+							</div>
+						</div>
+						<div class="space"></div>
+						<h2>Qu'est-ce que je fais ?</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<p>Je fais beaucoup de choses, j'aime bien créer des jeux, avec Unreal Engine, mais rarement en Java. En Java je fais plutôt des programmes utilitaires par exemple un système de partage de fichier en local ou des launchers Minecraft. Souvent quand je ne sais pas quoi faire, je me met à créer un petit programme comme ça.</p>
+
+								<p>Aussi je me promène beaucoup sur les forums comme Ironcraft.fr ou encore Bukkit.fr, j'aime bien aider les gens ou créer des tutoriels, je peut m'y mettre a fond parfois ^^. Aussi j'ai créé des librairie, souvent quand j'ai besoin d'un truc particulier pour un de mes programmes, je créé une librairie, et je là met sur mon Github =)</p>
+
+								<p>Il m'arrive aussi de vouloir en apprendre plus, je suis un adepte d'Open Classroom par exemple, je me suis lancé dans les application mobile et récemment dans Unreal Engine, ou encore dans le JavaScript par exemple. Ma soif de savoir est sans-fin ! Enfin parfois la barrière de la flemme est plus forte que tout.</p>
+
+								<p>Je fais toutes sortes de choses ! :</p>
+							</div>
+							<div class="col-md-6">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+													Des jeux
+												</a>
+											</h4>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+											<div class="panel-body">
+												Je suis en train d'apprendre à utiliser l'Unreal Engine. Actuellement j'ai plusieurs projets, le premier s'appelle Versus (le plus important), j'ai aussi QuizParty ou Art Of Drawing. J'ai beaucoup d'idées de jeu mais je me focalise plutôt sur le premier pour l'instant, j'espère vraiment qu'il verra le jour !
+
+												</br></br>
+
+												<center><img src="images/versus.png" /></center>
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingTwo">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+													Des programmes utilitaires / Des librairies
+												</a>
+											</h4>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+											<div class="panel-body">
+												<p>Ce que j'aime le plus c'est quand même créer différents types de programmes utiles ou des librairies. Le fait que les gens trouve ce que je fait utile, ou encore le fait que j'aide les gens, j'aime ça.</p>
+
+												<p>Niveau librairies la plus connue est actuellement l'<a href="https://github.com/TheShark34/OpenLauncherLib">OpenLauncherLib</a>. Mais il y a aussi <a href="https://github.com/TheShark34/S-Update">S-Update</a> qui est mon système de mise à jour. Quand je fais des jeux aussi j'essaie de créer des APIs pour faciliter la création de contenu. Mais pour l'instant je n'ai pas sorti de jeu.</p>
+
+												<p>Après actuellement j'ai plusieurs programmes utilitaires non-publiés comme ThunderMusic qui est un lecteur de musique avec synchronisation Dropbox. Après il y a SharkBundler qui permet de mettre de .jar dans des .app (executables mac) qui est publié mais pas Open-Source. Mais mon préféré reste quand même <a href="https://github.com/TheShark34/Sender">Sender</a>. C'est un programme simple permettant l'envoi de fichiers en local vers d'autre ordinateurs.</p>
+
+												<center><img src="images/sender.png" /></center>
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingThree">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+													Des launchers Minecraft
+												</a>
+											</h4>
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+											<div class="panel-body">
+												Je prends des commandes de launchers Minecraft entièrement personnalisés créés de zero. Ils peuvent être premiums ou crackés, avec le design que vous voulez, pour n'importe quelle version de Minecraft, forge ou non. Ca me permet de me faire un peu d'argent de poche vu le temps que je passe à programmer ^^. Si vous voulez me faire une commande, la partie contact est plus bas !
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section translucent-bg bg-image-1 orange">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h1 id="services"  class="text-center title">Mon expérience</h1>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Inscription sur Ironcraft</h4>
+								<p>En 2012 je me suis inscrit sur Ironcraft.fr, j'y ai passé beaucoup de temps et ça m'a appris beaucoup de choses, c'est là que j'ai débuté en Java. Je fais maintenant partie du staff !</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-cog"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Apprentissage du Java</h4>
+								<p>Toujours en 2012 j'ai commencé à apprendre le Java sur OpenClassroom (anciennement le Site du Zéro). Je m'y suis mis à fond. Ca m'a pris du temps, mais j'étais content de moi.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-check"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">ThunderMusic</h4>
+								<p>Mon premier petit programme utilitaire ! Lecteur de musique très petit et très léger synchronisant la musique avec son compte Dropbox ! Pas publié pour l'instant.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-desktop"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Sender</h4>
+								<p>Encore un petit programme utilitaire ! Permettant l'envoi de fichier via local, très util, léger, simple, et beau ! Il est actuellment Outadted car Sender 2 est sortit !</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-users"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">S-Update</h4>
+								<p>Ma première librairie ! Le système de mise à jour Java le plus perfomant existant, utilisation difficile a comprendre mais simple après. Elle est actuellement Outdated car S-Update 2 est sortit !</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-leaf"></i>
+							</div>
+						</div>
+					</div>
+					<div class="space visible-xs"></div>
+					<div class="col-sm-6">
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-area-chart"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Sender 2</h4>
+								<p>J'ai refait Sender ! Beaucoup plus propre ! Open-Source ! Beau ! Performant ! Et Simple ! Pour voir les sources : <a href="https://github.com/TheShark34/Sender">Lien vers mon GitHub</a>. Sous license Apache 2.</p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-child"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">OpenLauncherLib</h4>
+								<p>L'OpenLauncherLib, ma deuxième librairie, permettant le lancement de n'importe quelle version de Minecraft, très utilisée, simple et efficace ! Elle est Outdated car l'OpenLauncherLib 2 est sortie !</p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-codepen"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Tutoriel pour créer son launcher Minecraft de zéro</h4>
+								<p>J'ai créé un tutoriel permettant d'utiliser MCLauncher-Library de Kronos, S-Update, et l'OpenLauncherLib pour créer son Launcher Minecraft de zéro ! Pour le voir, c'est <a href="http://forum.ironcraft.fr/index.php/topic/6082-forgevanilla-%E2%88%9E-cr%C3%A9er-son-propre-launcher-perso-de-z%C3%A9ro/">ici</a></p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-check"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">OpenLauncherLib 2</h4>
+								<p>J'ai entièrement refaite l'OpenLauncherLib, entièrement personalisable ! Beaucoup plus propre et simple ! Et sous license LGPL ! Pour voir les sources, c'est <a href="https://github.com/TheShark34/OpenLauncherLib">ici</a></p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-area-chart"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">S-Update 2</h4>
+								<p>J'ai entièrement refait S-Update ! Plus de fichier txt tout est automatique grâce à un fichier php sur le FTP ! Et sous license LGPL ! Pour voir les sources, c'est <a href="https://github.com/TheShark34/S-Update">ici</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="default-bg space orange">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="text-center">Pourquoi ne pas travailler ensemble ?</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section">
+			<div class="container">
+				<h1 class="text-center title" id="portfolio">Portfolio</h1>
+				<div class="separator"></div>
+				<p class="lead text-center">Voici ici quelques projets/launcher que j'ai/je vais faire =)</p>
+				<br>
+				<div class="row object-non-visible" data-animation-effect="fadeIn">
+					<div class="col-md-12">
+
+						<!-- isotope filters start -->
+						<div class="filters text-center">
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#" data-filter="*">Tous</a></li>
+								<li><a href="#" data-filter=".web-design">Projet Java</a></li>
+								<li><a href="#" data-filter=".app-development">Launcher</a></li>
+								<li><a href="#" data-filter=".site-building">Autre</a></li>
+							</ul>
+						</div>
+						<!-- isotope filters end -->
+
+						<!-- portfolio items start -->
+						<div class="isotope-container row grid-space-20">
+							<div class="col-sm-6 col-md-3 isotope-item site-building">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/versus.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-1">
+											<i class="fa fa-search-plus"></i>
+											<span>Autre</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Versus</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+												<h4 class="modal-title" id="project-1-label">Versus</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Versus, des minis-jeux entre amis !</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Versus est un jeu que je suis en train de développer actuellement avec Unreal Engine 4. C'est un jeu qui se joue en local ou en ligne. Versus comportes pleins de minis-jeux de 1 à 4 joueurs. Il y aura une API pour que la communauté puisse créer ses propres jeux, et un serveur pour jouer à plusieurs. Le projet sera Open-Source sur mon Github.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/versus.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fermer</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item site-building">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/thundermusic.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>Autre</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Thunder Music</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+												<h4 class="modal-title" id="project-2-label">ThunderMusic</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Thunder Music : Le lecteur de musique d'aujourd'hui</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Thunder Music est un lecteur de musique ultra léger. Il offre pleins de mini-features comme un youtube-downloader, une synchronisation avec Dropbox, des playlists, et plus ! Il dispose de trois modes, léger (450x200) qui comporte le player et des petits boutons pour les features; normal (redimensionnable) qui comporte un player en bas, et un grand menu de playlist; et fullscreen, un grand lecteur en plein ecran avec le player en bas et des boutons en dessous. Thunder Music est écrit en JavaScript, HTML et CSS. Il utilise <a href="https://electron.atom.io/">Electron</a> de Github. Le projet est Open-Source et actuellement en lourd développement. Vous pouvez retrouver le repo Github <a href="https://github.com/TheShark34/Thunder-Music">ici</a>.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/thundermusic.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fermer</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/openlauncherlib.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-3">
+											<i class="fa fa-search-plus"></i>
+											<span>Projet Java</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">OpenLauncherLib</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+												<h4 class="modal-title" id="project-3-label">OpenLauncherLib</h4>
+											</div>
+											<div class="modal-body">
+												<h3>L'OpenLauncherLib : Créez votre launcher Minecraft autour de cette librairie !</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>L'OpenLauncherLib est une librairie Java permettant de coder un launcher de zéro. Elle permet le lancement de n'importe quelle version de Minecraft, simplement. Elle est entièrement personnalisable de font en comble. Elle offre pleins de features souvent présents dans les launchers, elle permet de pouvoir bouger une fenêtre avec la souris en rajoutant 3 lignes, ou de sauvegarder/charger le pseudo avec 3 lignes encore, et l'emplacement du dossier du jeu dynamique est intégré. Avec l'OpenLauncherLib, créer un launcher Minecraft n'a jamais été aussi simple. C'est la première librairie ouvert (LGPL) pour créer son launcher Minecraft. Elle est écrite en Java mais une adaptation C++ est prévue. Comme elle est sous LGPL vous pouvez l'utiliser commercialement sans aucune réstriction. Son repo Github est <a href="https://github.com/TheShark34/OpenLauncherLib">ici</a>.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/openlauncherlib.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fermer</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/supdate.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-4">
+											<i class="fa fa-search-plus"></i>
+											<span>Projet Java</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">S-Update</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-4" tabindex="-1" role="dialog" aria-labelledby="project-4-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+												<h4 class="modal-title" id="project-4-label">S-Update</h4>
+											</div>
+											<div class="modal-body">
+												<h3>S-Update : La librairie de mise à jour ultime</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>S-Update est une librairie de mise à jour pour les développeurs. Elle permet la mise à jour simplement et rapidement, de façon sécurisée. Vous pouvez choisir d'utiliser les MD5s pour la sécurité où la date de dernière modification des fichiers pour la rapidité. Elle utilise un serveur en php simple d'utilisation, vous avez juste à mettre vos fichiers dans le dossier files. Dès que vous les modifierais, ils seront mis à jour chez les utilisateurs. En plus de ça, les fichiers intrus ou modifiés chez les utilisateurs, sont supprimés ou retéléchargés. Biensur pour empêcher la suppression d'un fichier ou d'un dossier, mettez son nom dans le fichier su_ignore.idx. S-Update est Open-Source sous license LGPL, çela signifie que vous pouvez l'utiliser de façon commerciale sans aucune réstriction. Son repo Github est <a href="https://github.com/TheShark34/S-Update">ici</a>.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/supdate.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fermer</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/mineria1.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-5">
+											<i class="fa fa-search-plus"></i>
+											<span>Launcher</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Mineria</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+												<h4 class="modal-title" id="project-5-label">Mineria</h4>
+											</div>
+											<div class="modal-body">
+												<center><img src="images/mineria2.jpg" alt=""></center>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fermer</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/sender.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-6">
+											<i class="fa fa-search-plus"></i>
+											<span>Projet Java</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Sender</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+												<h4 class="modal-title" id="project-6-label">Sender</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Sender : Envoyer des fichiers en local simplement !</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Sender est un petit programme très léger est très simple d'utilisation, permettant d'envoyer des fichiers à d'autre ordinateurs en local. Chaque ordinateur a un ID généré en fonction de son IP Locale. Lancez le programme, une petite boite apparait, cliquez sur le plus pour avoir plus de détail (comme votre ID), glissez des fichiers dans la boîte, saisissez l'ID du destinataire (il doit avoir Sender lancé), et pof ! Voilà ! La déstination des fichiers est configurable au lancement. J'avais fait ce programme pour apprendre les sockets à la base, mais j'avais envie de le partager. Il est sous license Apache 2, le repo est <a href="http://github.com/TheShark34/Sender">ici</a>.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/sender.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fermer</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/abyssia.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-7">
+											<i class="fa fa-search-plus"></i>
+											<span>Launcher</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-7">Abyssia</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-7" tabindex="-1" role="dialog" aria-labelledby="project-7-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+												<h4 class="modal-title" id="project-7-label">Abyssia</h4>
+											</div>
+											<div class="modal-body">
+												<center><img src="images/abyssia.jpg" alt=""></center>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fermer</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/trinityborder.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-8">
+											<i class="fa fa-search-plus"></i>
+											<span>Launcher</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">Trinity</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-8" tabindex="-1" role="dialog" aria-labelledby="project-8-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+												<h4 class="modal-title" id="project-8-label">Trinity</h4>
+											</div>
+											<div class="modal-body">
+												<center><img src="images/trinity.jpg" alt=""></center>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fermer</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+						</div>
+						<!-- portfolio items end -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section translucent-bg bg-image-2 pb-clear">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h1 id="clients" class="title text-center">Clients / Avis</h1>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/testimonial-1.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Je recommande ce joueur !</h3>
+								<blockquote>
+									<p>Je tient à remercier Shark pour le launcher qu'il ma fait. Rapidité extraordinaire, et ensuite il à répondu a toute mes attentes. Puis conférence sur skype pour tout m'expliquer. Tarif très interessant !</p>
+									<footer>AntoineModding via <cite title="Ironcraft">Ironcraft</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/testimonial-2.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Parfait !</h3>
+								<blockquote>
+									<p>Parfait, mon launcher 1.8 buguais, il m'en a fait un mieux. Rapide, et sympa !</p>
+									<footer>xLg56 via <cite title="Ironcraft">Ironcraft</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/testimonial-3.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Développeur Conseillé !</h3>
+								<blockquote>
+									<p>Développeur très sérieux et très à l'écoute ! Fait les choses proprement avec de l'organisation ! Et très rapidement pour un faible prix ! Developpeur conseillé !</p>
+									<footer>SquizzCraft via <cite title="Source Title">Ironcraft</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- section start -->
+			<!-- ================ -->
+			<div class="translucent-bg orange">
+				<div class="container">
+					<div class="list-horizontal">
+						<div class="row">
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-1.png" alt="client">
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-2.png" alt="client">
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-3.png" alt="client">
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-4.png" alt="client">
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-5.png" alt="client">
+								</div>
+							</div>
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<img src="images/client-6.png" alt="client">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- section end -->
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="default-bg space">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="text-center"><em>"Le Java, c'est bien"</em> - TheShark34</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- footer start -->
+		<!-- ================ -->
+		<footer id="footer">
+
+			<!-- .footer start -->
+			<!-- ================ -->
+			<div class="footer section">
+				<div class="container">
+					<h1 class="title text-center" id="contact">Me contacter</h1>
+					<div class="space"></div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="footer-content">
+								<p class="large">Une commande de launcher, un message, un bug dans un de mes programmes, une astuce, si vous voulez travailler avec moi ou quoi que ce soit. Ici c'est pour me contacter ! (Même si utiliser Skype c'est mieux quand même).</p>
+								<ul class="list-icons">
+									<li><i class="fa fa-github pr-10"></i> <a href="https://github.com/TheShark34">https://github.com/TheShark34</a></li>
+									<li><i class="fa fa-envelope-o pr-10"></i> adrien1975@live.fr</li>
+								</ul>
+								<ul class="social-links">
+									<li class="twitter"><a target="_blank" href="https://twitter.com/TheShark34FR"><i class="fa fa-twitter"></i></a></li>
+									<li class="googleplus"><a target="_blank" href="https://plus.google.com/u/0/b/104158910563964035500/104158910563964035500/"><i class="fa fa-google-plus"></i></a></li>
+									<li class="skype"><a href="skype:adrien11997755?call"><i class="fa fa-skype"></i></a></li>
+									<li class="github"><a target="_blank" href="https://github.com/TheShark34"><i class="fa fa-github"></i></a></li>
+									<li class="youtube"><a target="_blank" href="http://www.youtube.com/adrien19771"><i class="fa fa-youtube"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="footer-content">
+								<form role="form" id="footer-form">
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="name2">Nom</label>
+										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
+										<i class="fa fa-user form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="email2">Adresse email</label>
+										<input type="email" class="form-control" id="email2" placeholder="Email" name="email2" required>
+										<i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="message2">Message</label>
+										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
+										<i class="fa fa-pencil form-control-feedback"></i>
+									</div>
+									<input type="submit" value="Send" class="btn btn-default">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .footer end -->
+
+			<!-- .subfooter start -->
+			<!-- ================ -->
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2014 Worthy by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+		<!-- Jquery and Bootstap core js files -->
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Modernizr javascript -->
+		<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+		<!-- Isotope javascript -->
+		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+
+		<!-- Backstretch javascript -->
+		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+
+		<!-- Appear javascript -->
+		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+		<!-- Initialization of Plugins -->
+		<script type="text/javascript" src="js/template.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
+
+	</body>
 </html>
