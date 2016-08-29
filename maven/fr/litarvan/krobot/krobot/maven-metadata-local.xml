@@ -3,7 +3,7 @@
   <groupId>fr.litarvan.krobot</groupId>
   <artifactId>krobot</artifactId>
   <versioning>
-    <release>1.3.1</release>
+    <release>1.3.2</release>
     <versions>
       <version>1.2.0</version>
       <version>1.2.1</version>
@@ -11,7 +11,8 @@
       <version>1.2.3</version>
       <version>1.3.0</version>
       <version>1.3.1</version>
+      <version>1.3.2</version>
     </versions>
-    <lastUpdated>20160829114547</lastUpdated>
+    <lastUpdated>20160829115705</lastUpdated>
   </versioning>
 </metadata>
