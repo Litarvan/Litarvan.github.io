@@ -1,8 +1,8 @@
 {
 	"craftix": "indev-201701231839",
 	"electron": [
-		"https://github.com/electron/electron/releases/download/v1.4.15/electron-v1.4.15-${os}-${arch}.zip",
-		"https://github.com/electron/electron/releases/download/v1.4.15/ffmpeg-v1.4.15-${os}-${arch}.zip"
+		"https://github.com/electron/electron/releases/download/v1.6.8/electron-v1.6.8-${os}-${arch}.zip",
+		"https://github.com/electron/electron/releases/download/v1.6.8/ffmpeg-v1.6.8-${os}-${arch}.zip"
 	],
 	"os": {
 		"windows": "win32",
