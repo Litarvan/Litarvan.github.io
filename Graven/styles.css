@@ -1,0 +1,242 @@
+body {
+    text-align: center;
+}
+
+#top-nav {
+    background-color: black;
+    padding: 17.5px;
+    color: white;
+    font-size: 14px;
+}
+
+.top-nav-row {
+    text-align: center;
+}
+
+#first-header-block i {
+    padding-left: 15px;
+}
+
+.top-nav-row a {
+    padding-right: 15px;
+}
+
+a, a:hover, a:focus, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#nav {
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: -5 px;
+}
+
+.nav-button {
+    color: rebeccapurple;
+    height: 45px;
+    width: 115px;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: border 125ms ease-in-out, color 175ms ease-in-out;
+    padding: 8px;
+    text-align: center;
+    display: inline-block;
+    border: solid #fff 1px;
+}
+
+.nav-button:hover {
+    border: solid #00c3c3 1px;
+    color: #00a0a0;
+    cursor: pointer;
+}
+
+#search {
+    border-bottom: solid #969696 1px;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#search-box {
+    border: none;
+    background: none;
+}
+
+#search-box::placeholder {
+    color: #7d7d7d;
+}
+
+#search-icon {
+    float: right;
+    font-size: 28px;
+    color: black;
+}
+
+#main {
+    background: url(img/salon.jpeg) top;
+    width: 100%;
+    height: 75vh;
+    text-align: center;
+    color: white;
+}
+
+#main i {
+    font-size: 42px;
+    margin-top: 135px;
+    margin-bottom: 10px;
+}
+
+#main h1 {
+    font-weight: bold;
+}
+
+#first {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#first h1 {
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+#first-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+#first-left h3 {
+    color: rebeccapurple;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#first .cell {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#first p {
+    margin-bottom: 25px;
+}
+
+#first .check-entry {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+#first .check-entry i {
+    color: rebeccapurple;
+    margin-right: 5px;
+}
+
+#big-icons i {
+    font-size: 64px;
+    margin-top: 40px;
+}
+
+.sep {
+    /* border-right: solid #8a8a8a 1px; */
+}
+
+#big-icons .cell {
+    text-align: center;
+}
+
+#bottom {
+    background: black;
+    width: 100%;
+    color: white;
+}
+
+#bottom-header {
+    padding: 22px;
+    border-bottom: solid #005555 1px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+#bottom-header i {
+    font-size: 10px;
+}
+
+.bottom-left {
+    text-align: left;
+}
+
+.bottom-center {
+    text-align: center;
+}
+
+.bottom-right {
+    text-align: right;
+}
+
+.click:hover {
+    cursor: pointer;
+}
+
+#up i {
+    font-size: 20px;
+}
+
+#bottom-main {
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-bottom: 20px;
+}
+
+.big-left i {
+    margin-right: 20px;
+    width: 30px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#address {
+    color: rebeccapurple;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.big-left {
+    color: #999;
+}
+
+.bottom-left h1 {
+    margin-top: 40px;
+}
+
+.centeruh {
+    text-align: center;
+}
+
+.sweg i {
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    padding: 7px;
+    border: solid 1px white;
+    margin: 0;
+}
+
+#sweg-container {
+    margin-top: 45px;
+}
+
+.centeruh h1 {
+    font-weight: bold;
+}
+
+#menueuh {
+    color: white;
+}
+
+.whiteuh {
+    color: white;
+}
