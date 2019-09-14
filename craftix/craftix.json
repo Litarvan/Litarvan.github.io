@@ -1,8 +1,7 @@
 {
 	"craftix": "indev-201701231839",
 	"electron": [
-		"http://launcher.nationsglory.fr/electron4.0.8/electron-v4.0.8-${os}-${arch}.zip",
-		"http://launcher.nationsglory.fr/electron4.0.8/ffmpeg-v4.0.8-${os}-${arch}.zip"
+		"http://launcher.nationsglory.fr/electron4.0.8/electron-v4.0.8-${os}-${arch}.zip"
 	],
 	"os": {
 		"windows": "win32",
