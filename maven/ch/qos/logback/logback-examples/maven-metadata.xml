@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ch.qos.logback</groupId>
+  <artifactId>logback-examples</artifactId>
+  <versioning>
+    <release>1.2.3-litarvan</release>
+    <versions>
+      <version>1.2.3-litarvan</version>
+    </versions>
+    <lastUpdated>20210413092956</lastUpdated>
+  </versioning>
+</metadata>
