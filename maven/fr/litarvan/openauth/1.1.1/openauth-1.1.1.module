@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fr.litarvan",
+    "module": "openauth",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "openauth-1.1.1.jar",
+          "url": "openauth-1.1.1.jar",
+          "size": 53504,
+          "sha512": "9ad26eddb37a38d399d116bada692eb1505e8a95d3c43aa0596c869d0328ead83b90d77ecfebbafc5f9cbbdb847844a6ad285ec363c0ec4279fbdfab7e12719e",
+          "sha256": "b0c3b21ccc22a6be2cb5b1713a5b1f293d671b6cc17a89a19ec7a0228a273148",
+          "sha1": "76360b76d8924d1d1c955a7d5dc90a5b2373f77f",
+          "md5": "41d986affd68403512d904c6994fa31e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openauth-1.1.1.jar",
+          "url": "openauth-1.1.1.jar",
+          "size": 53504,
+          "sha512": "9ad26eddb37a38d399d116bada692eb1505e8a95d3c43aa0596c869d0328ead83b90d77ecfebbafc5f9cbbdb847844a6ad285ec363c0ec4279fbdfab7e12719e",
+          "sha256": "b0c3b21ccc22a6be2cb5b1713a5b1f293d671b6cc17a89a19ec7a0228a273148",
+          "sha1": "76360b76d8924d1d1c955a7d5dc90a5b2373f77f",
+          "md5": "41d986affd68403512d904c6994fa31e"
+        }
+      ]
+    }
+  ]
+}
