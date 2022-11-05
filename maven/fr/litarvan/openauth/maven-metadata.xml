@@ -3,15 +3,16 @@
   <groupId>fr.litarvan</groupId>
   <artifactId>openauth</artifactId>
   <versioning>
-    <latest>1.1.3</latest>
-    <release>1.1.3</release>
+    <latest>1.1.4</latest>
+    <release>1.1.4</release>
     <versions>
       <version>1.0.3-SNAPSHOT</version>
       <version>1.0.4</version>
       <version>1.1.1</version>
       <version>1.1.2</version>
       <version>1.1.3</version>
+      <version>1.1.4</version>
     </versions>
-    <lastUpdated>20220823012804</lastUpdated>
+    <lastUpdated>20221105145032</lastUpdated>
   </versioning>
 </metadata>
